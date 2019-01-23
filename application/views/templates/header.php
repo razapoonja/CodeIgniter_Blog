@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>CodeIgniter_Blog</title>
+	<title>CodeIgniter Blog</title>
 	<link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="<?= base_url(); ?>">CodeIgniter Blog</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 		</button>
@@ -19,6 +19,9 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="<?= base_url(); ?>about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="<?= base_url(); ?>posts">Blog</a>
 				</li>
 			</ul>
 		</div>
